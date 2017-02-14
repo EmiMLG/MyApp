@@ -22,16 +22,20 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"/>
 
-    <ImageView
+    <ImageButton
         android:id="@+id/activity_main___button_man"
+        android:background="#fdfdfd"
         android:src="@drawable/man"
         android:layout_below="@id/activity_main___select_gender"
+        android:scaleType="fitCenter"
         android:layout_width="177dp"
         android:layout_height="match_parent"/>
 
-    <ImageView
+    <ImageButton
         android:id="@+id/activity_main___button_woman"
+        android:background="#fdfdfd"
         android:src="@drawable/woman"
+        android:scaleType="fitCenter"
         android:layout_below="@id/activity_main___select_gender"
         android:layout_toRightOf="@id/activity_main___button_man"
         android:layout_width="177dp"
