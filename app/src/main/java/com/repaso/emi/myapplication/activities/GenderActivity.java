@@ -1,5 +1,6 @@
 package com.repaso.emi.myapplication.activities;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -28,12 +29,18 @@ public class GenderActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                Intent age = new Intent(getApplicationContext(), AgeActivity.class);
+                startActivity(age);
+
             }
         });
 
         buttonWoman.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                Intent age = new Intent(getApplicationContext(), AgeActivity.class);
+                startActivity(age);
 
             }
         });
